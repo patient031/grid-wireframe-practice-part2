@@ -41,7 +41,7 @@ main {
 }
 
 .article-heading {
-    display: none; /* Hidden by default */
+    display: none; 
     color: white;
     text-align: center;
     margin: 0 0 10px 0;
