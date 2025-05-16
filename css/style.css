@@ -19,13 +19,15 @@ body {
     gap: 10px;
 }
 
-header, article, aside, footer {
+header, article, footer {
     padding: 20px;
     border-radius: 10px;
     color: white;
     text-align: center;
     font-weight: bold;
     min-height: 80px;
+    display: grid;
+    place-items: center;
 }
 
 header {
@@ -41,7 +43,7 @@ main {
 }
 
 .article-heading {
-    display: none; 
+    display: none;
     color: white;
     text-align: center;
     margin: 0 0 10px 0;
@@ -56,18 +58,31 @@ main {
 
 article {
     background-color: #e91e63;
+    display: grid;
+    place-items: center;
 }
 
 .aside-left {
     background-color: #1a5d8f;
     grid-area: aside-left;
     min-height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
 }
 
 .aside-right {
     background-color: #46bbb7;
     grid-area: aside-right;
     min-height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 footer {
@@ -85,7 +100,7 @@ footer {
     }
 
     .article-heading {
-        display: block; 
+        display: block;
     }
 
     .articles-container {
